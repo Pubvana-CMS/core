@@ -1,0 +1,22 @@
+{
+    "name": "pubvana/core",
+    "description": "Pubvana CMS core",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["pubvana", "cms", "flightphp"],
+    "homepage": "https://pubvana.net",
+    "authors": [
+        {
+            "name": "enlivenapp",
+            "email": "mw@enlivenapp.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pubvana\\Core\\": "src/"
+        }
+    }
+}
